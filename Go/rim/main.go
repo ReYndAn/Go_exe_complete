@@ -34,5 +34,5 @@ func romanToArabic(romanNum string) int {
 func main() {
 	romanNum := "XXX"
 	arabicNum := romanToArabic(romanNum)
-	fmt.Printf("%s in roman numerals is %d in arabic numerals\n", romanNum, arabicNum)
+	fmt.Printf("%s Данные римские цифры равны: %d арабским \n", romanNum, arabicNum)
 }
