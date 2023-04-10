@@ -22,7 +22,7 @@ func main() {
 	for i := range arr {
 		arr[i] = rand.Intn(100)
 	}
-	fmt.Println("Before sorting:", arr)
+	fmt.Println("До сортировки:", arr)
 	bubbleSort(arr)
-	fmt.Println("After sorting:", arr)
+	fmt.Println("После сортировки:", arr)
 }
