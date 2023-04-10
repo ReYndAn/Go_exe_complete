@@ -43,7 +43,7 @@ func main() {
 	for i := range arr {
 		arr[i] = rand.Intn(100)
 	}
-	fmt.Println("Before sorting:", arr)
+	fmt.Println("До сортировки:", arr)
 	quickSort(arr, 0, len(arr)-1)
-	fmt.Println("After sorting:", arr)
+	fmt.Println("После сортировки:", arr)
 }
